@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title> Registration </title>
+    </head>
+
+    <body bgcolor="#fcedf3">
+
+        <div align="center">
+            <!-- starting code to display logo and company name -->
+                <table>
+                    <tr> <!-- create a row -->
+                        <td> <!-- create a column -->
+                            <img src="Logos/logo1.png" alt="my image" width="80" height="80">
+                        </td>
+                        <td>
+                            <!-- &nbsp; means adding a space -->
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+        
+                        <td> <!-- create a column -->
+                            <h2>Company Name</h2>
+                        </td>
+                    </tr>
+                </table>
+        </div>
+            <!-- ending code -->
+        
+            <hr color="red" width="80%" size="3"/>
+        
+            <div align="center">
+                    <!-- Display menu -->
+                <nav>
+                    <b> <a href="index.html" target="_blank"> HOME </a> // 
+                        <a href="registration.html" target="_blank"> REGISTRATION</a> //
+                        <a href="login.html" target="_blank"> LOGIN</a> // SEARCH //
+                        <!-- href: hyperlink reference -->
+                        <!-- _blank: open in a different tab -->
+                        <a href="contactus.html" target="_blank"> CONTACT US </a> 
+                    </b>
+                </nav>
+                <br /> <br />
+            </div>
+
+        <div align="center">
+            <h2> REGISTRATION </h2>
+            <br /> <br />
+
+            <form>
+                <input type="text" placeholder="Enter Name">
+                <br /> <br />
+
+                <input type="email" placeholder="Enter Email">
+                <br /> <br />
+
+                <input type="password" placeholder="Enter password">
+                <br /> <br />
+
+                <input type="tel" placeholder="Enter Moblie No">
+                <br /> <br />
+
+                <input type="date" placeholder="Enter DOB">
+                <br /> <br />
+
+                <!-- should have the same name or else they will be able to select both (for only type"radio) -->
+                <input type="radio" name="g1" value="Male"> M
+                <input type="radio" name="g1" value="Female"> F
+                <br /> <br />
+
+                <input type="checkbox" name="c1" value="Paint"> Paint
+                <input type="checkbox" name="c1" value="Gardening"> Gardening
+                <input type="checkbox" name="c1" value="Cooking"> Cooking
+                <br /> <br />
+
+                <select>
+                    <option>USA</option>
+                    <!-- selected is for that option to be automatically selected -->
+                    <option selected>Camboida</option>
+                    <option>UK</option>
+                </select>
+                <br /> <br />
+
+                <textarea rows="5" cols="40"></textarea>
+                <br /> <br />
+
+                <input type="hidden">
+                <br /> <br />
+
+                <input type="submit" value="REGISTER">
+                <input type="reset" value="CLEAR">
+                
+            </form>
+
+
+        </div>
+    </body>
+
+</html>
